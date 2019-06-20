@@ -1,20 +1,24 @@
 {
-  "name": "week12",
+  "name": "bamazon",
   "version": "1.0.0",
-  "description": "storefront online order",
-  "main": "index.js",
+  "description": "Amazon-like storefront using MySQL. The app takes in orders from customers and deplete stock from the store's inventory.  The app also tracks product sales across the store's departments and then provides a summary of the highest-grossing departments in the store.",
+  "main": "bamazonCustomer.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "inquirer": "^3.3.0",
-    "mysql": "^2.15.0"
-  },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/diop2x/bamazon.git"
   },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diop2x/bamazon/issues"
+  },
+  "homepage": "https://github.com/diop2x/bamazon#readme",
+  "dependencies": {
+    "inquirer": "^6.2.2",
+    "mysql": "^2.16.0",
+    "nodemon": "^1.18.11"
+  }
 }
